@@ -63,8 +63,8 @@ def metri(true_labels_cv,predictions,m):
 
 #####输入已经过特征选择后的特征向量集
 
-X_train= pd.read_csv('1471_reliefF_1100.csv')
-X_test= pd.read_csv('159_reliefF_1100.csv')
+X_train= pd.read_csv('1471train.csv')
+X_test= pd.read_csv('159test.csv')
 
 #特征名称
 featuresname = list(X_train.columns[1:])  #la colonne 0 est le quote_conversionflag  
